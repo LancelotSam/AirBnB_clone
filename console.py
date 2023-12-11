@@ -8,6 +8,7 @@ class HBNBCommand(cmd.Cmd):
         """This quits or exits the program"""
         return True
     
-    do_exit = do_quit
+    EOF = do_quit
 
+if __name__ == '__main__':
     HBNBCommand().cmdloop()
