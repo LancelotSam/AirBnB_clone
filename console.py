@@ -9,6 +9,7 @@ class HBNBCommand(cmd.Cmd):
         return True
     
     EOF = do_quit
+    """This alias quits or exits the program"""
 
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
